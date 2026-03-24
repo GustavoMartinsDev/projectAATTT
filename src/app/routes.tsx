@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import { MasterFiles } from "./pages/MasterFiles";
 import { RenomearDBN1 } from "./pages/RenomearDBN1";
@@ -17,6 +17,7 @@ export const router = createBrowserRouter([
       { path: "modelo-exp-dbn0", Component: ModeloExpDBN0 },
       { path: "modelo-exp-dbn1", Component: ModeloExpDBN1 },
       { path: "gerador-json", Component: GeradorJSON },
+      { path: "*", Component: () => <Navigate to="/" replace /> },
     ],
   },
 ]);
