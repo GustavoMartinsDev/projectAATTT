@@ -88,7 +88,7 @@ export function Layout() {
       <div className="md:hidden sticky top-0 z-50 bg-white/95 backdrop-blur-xl border-b border-[#0099AB]/10 px-4 py-3 flex items-center justify-between shadow-sm">
         <div className="flex items-center gap-3">
           <img
-            src="/src/assets/logoOpenLabs.png"
+            src="/logoAltaiaLabs.png"
             alt="Open Labs"
             className="h-10 w-auto"
           />
@@ -119,7 +119,7 @@ export function Layout() {
         <div className="hidden md:block p-6 border-b border-[#0099AB]/10">
           <div className="flex items-center gap-3">
             <img
-              src="/src/assets/logoOpenLabs.png"
+              src="/logoAltaiaLabs.png"
               alt="Open Labs"
               className="h-12 w-auto"
             />
